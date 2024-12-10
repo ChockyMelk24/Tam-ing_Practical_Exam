@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H.O.P.E. CHRISTIAN ACADEMY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="distinctives.html">K-12 EDUCATION</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu"></i>
+    </nav>
+    <h1>Our Certificate & Online Programs For 2024</h1>
+</section>
+
+<!--------blog page content-->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="okay.jpg">
+            <h2>Online Program For 2024</h2>
+            <p>The Organization of Servant Leaders is a dedicated group of individuals
+            who embody the principles of selflessness, integrity, and purpose-driven 
+            leadership. Focused on making a meaningful impact, they prioritize 
+            serving the needs of others above their own, fostering a culture of 
+            empathy, collaboration, and inclusivity. By empowering communities, 
+            inspiring positive change, and addressing real-world challenges, they 
+            aim to create a legacy of leadership that uplifts and transforms lives. 
+            This organization is rooted in the belief that true leadership is about 
+            service, and through their actions, they strive to lead by example and 
+            inspire others to do the same</p>
+            <br>
+            <p>Through initiatives and programs, the Organization of Servant Leaders 
+            emphasizes values such as teamwork, responsibility, and accountability. 
+            Members are encouraged to take an active role in community-building 
+            efforts, addressing social issues, and supporting the holistic growth 
+            of those they serve. Whether through mentorship programs, outreach 
+            activities, or leadership training workshops, the organization equips
+            its members with the skills and mindset needed to lead with compassion
+            and vision. These experiences not only benefit the communities they 
+            serve but also provide members with opportunities for personal and 
+            professional growth.</p>
+            <br>
+            <p>At its core, the Organization of Servant Leaders is a movement
+            toward a more compassionate and equitable world. By fostering a
+            culture where leadership is measured by the positive impact on 
+            others, the organization creates ripples of change that extend 
+            far beyond individual efforts. Its mission is to inspire a new 
+            generation of leaders who see service as a privilege and a 
+            responsibility, ensuring that the values of empathy, kindness, 
+            and humility remain at the heart of leadership in every sphere 
+            of life.</p>
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment">
+                    </textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+                </form>
+            </div>
+        </div>
+        <div class="blog-right"></div>
+    </div>
+
+</section>
+
+<!--- Footer --->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>WE ARE FAMILYYYYYY</p>
+    <p>Made By: Tam-ing, Reidler Lance A. <i class="fa fa-heart-o"></i></p>
+</section>
+
+
+<!------JavaScript for Toggle------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+
+</script>
+
+</body>
+</html>

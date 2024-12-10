@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H.O.P.E. CHRISTIAN ACADEMY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="distinctives.html">K-12 EDUCATION</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu"></i>
+    </nav>
+    <h1>K-12 Education</h1>
+</section>
+
+<!------   DISTINCTIVES  ------>
+<section class="course">
+    <h1>What We Offer</h1>
+    <p>We provide a well-rounded education with engaging academic programs, extracurricular 
+        activities, and supportive learning environments designed to nurture every student’s 
+        potential and inspire success.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Preschool</h3>
+            <p>A nurturing environment where young learners 
+                develop essential social, emotional, and 
+                cognitive skills through play-based and 
+                interactive learning.</p>
+        </div>
+        <div class="course-col">
+            <h3>Grade School</h3>
+            <p>A foundation-building stage where students 
+                gain knowledge in core subjects, explore 
+                creativity, and develop critical thinking 
+                in a supportive setting.</p>
+        </div>
+        <div class="course-col">
+            <h3>High School</h3>
+            <p>An empowering phase that prepares students 
+                for higher education and future careers, 
+                fostering independence, advanced learning, 
+                and personal growth.</p>
+        </div>
+    </div>
+
+</section>
+<!------ Student Projects ------>
+
+<section class="facilities">
+    <h1>Students Projects</h1>
+    <p>In H.O.P.E. students are allowed to express their creativity and intelligence in various ways.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="science.jpg">
+            <h3>Science Fair</h3>
+            <p>This is an event where students present their scientific projects, <br>experiments, and innovations. It promotes creativity, critical <br>thinking, and teamwork while encouraging a love for science <br>and discovery.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="coding.jpg">
+            <h3>Website Making</h3>
+            <p>This involves designing and creating online platforms to share <br>information, ideas, or services. It encourages creativity, technical <br> skills, and problem-solving, providing students with hands-on <br>experience in web design and development.<br> Sample: <br> <a href="https://chockymelk24.github.io/meow/">Reidler's Webpage</a> </p>
+        </div>
+        <div class="facilities-col">
+            <img src="selling.jpg">
+            <h3>Product Selling</h3>
+            <p>This provides students with an opportunity to showcase and sell <br> handmade or creative items. It helps develop entrepreneurial skills, teamwork, and financial literacy in a practical setting.</p>
+        </div>
+    </div>
+
+</section>
+<!--- Footer --->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>WE ARE FAMILYYYYYY</p>
+    <p>Made By: Tam-ing, Reidler Lance A. <i class="fa fa-heart-o"></i></p>
+</section>
+
+
+<!------JavaScript for Toggle------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+
+</script>
+
+</body>
+</html>
